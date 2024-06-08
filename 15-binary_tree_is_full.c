@@ -19,6 +19,6 @@ int binary_tree_is_full(const binary_tree_t *tree)
 
 	left_height = binary_tree_is_full(tree->left);
 	right_height = binary_tree_is_full(tree->right);
-	
+
 	return (left_height && right_height);
-}	
+}
